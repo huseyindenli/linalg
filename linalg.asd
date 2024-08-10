@@ -12,6 +12,7 @@
   :components ((:module "src"
                 :components
                 ((:file "package")
+		 (:file "macros")
 		 (:file "aux")
 		 (:file "matrix")
 		 (:file "constants")

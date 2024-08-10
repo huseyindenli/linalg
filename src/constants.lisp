@@ -1,5 +1,14 @@
 (in-package #:linalg)
 
+(defparameter rvi (create-row-vector 3 #(1.0 0.0 0.0)))
+(defparameter rvj (create-row-vector 3 #(0.0 1.0 0.0)))
+(defparameter rvk (create-row-vector 3 #(0.0 0.0 1.0)))
+
+(defparameter cvi (create-col-vector 3 #(1.0 0.0 0.0)))
+(defparameter cvj (create-col-vector 3 #(0.0 1.0 0.0)))
+(defparameter cvk (create-col-vector 3 #(0.0 0.0 1.0)))
+
+
 (defparameter rv1 (create-row-vector 3 #(1.0 2.0 3.0)))
 (defparameter rv2 (create-row-vector 3 #(10.0 20.0 30.0)))
 
